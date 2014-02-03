@@ -1,5 +1,4 @@
 
-
 # Process Plan Document – Team 25
 
 ## **1 Introduction**
@@ -322,7 +321,7 @@ The following is an hours estimate and lines/code estimate for completing the pr
 
 ### 4.2 Schedule
 
-![Gantt chart for ASLA](gantt.png)
+[Gantt chart for ASLA](gantt.png)
 
 
 
