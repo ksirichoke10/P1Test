@@ -49,7 +49,7 @@ Provides a table of test cases, one per row. For each test case, the table shoul
 <tbody>
 
     <tr>
-        <td><b>#</b></td>
+        <td><b>Test Case #</b></td>
         <td><b>Requirements Cross Reference</b></td>
         <td><b>Purpose</b></td>
         <td><b>Test Steps</b></td>
@@ -59,7 +59,7 @@ Provides a table of test cases, one per row. For each test case, the table shoul
     </tr>
     
     <tr>
-        <td><b>1</b></td>
+        <td>1</td>
         <td>n/a</td>
         <td>Test 1.0 Pre-test Setup</td>
         <td>
@@ -77,7 +77,7 @@ Provides a table of test cases, one per row. For each test case, the table shoul
     </tr>
     
     <tr>
-    <td><b> 2</b></td>
+    <td> 2</td>
     <td>3.1.1</td>
     <td>Verify simple execution from a command line</td>
     <td>3.) Enter the following command:
@@ -89,7 +89,7 @@ java edu.gatech.omscs.team25.project1.ASLA <path>\essay.txt -d "." -l "3"</td>
     </tr>
 
  <tr>
-    <td><b> 3</b></td>
+    <td> 3</td>
     <td>3.1.3</td>
     <td>Verify single delimiter</td>
     <td>4.) Enter the following command:
@@ -102,7 +102,7 @@ java edu.gatech.omscs.team25.project1.ASLA <path>\essay.txt -d "?" -l "3"</td>
     
     
  <tr>
-    <td><b> 4</b></td>
+    <td>4</td>
     <td>3.1.3</td>
     <td>Verify multiple delimiters</td>
     <td>5.) Enter the following command:
@@ -114,7 +114,7 @@ java edu.gatech.omscs.team25.project1.ASLA <path>\essay.txt -d "?","." -l "3"</t
     </tr>
     
      <tr>
-    <td><b> 5</b></td>
+    <td> 5</td>
     <td>3.1.4</td>
     <td>Verify minimum word length = 2</td>
     <td>6.) Enter the following command:
@@ -126,7 +126,7 @@ java edu.gatech.omscs.team25.project1.ASLA <path>\essay.txt -d "?","." -l "2"</t
     </tr>
     
  <tr>
-    <td><b>6 </b></td>
+    <td>6 </td>
     <td>3.1.4</td>
     <td>Verify minimum word length = 4</td>
     <td>7.) Enter the following command:
@@ -138,7 +138,7 @@ java edu.gatech.omscs.team25.project1.ASLA <path>\essay.txt -d "?","." -l "4"</t
  </tr>
     
     <tr>
-    <td><b>7 </b></td>
+    <td>7 </td>
     <td>3.1.3, 3.1.4</td>
     <td>Verify minimum word length with different delimiter</td>
     <td>8.) Enter the following command:
@@ -150,9 +150,9 @@ java edu.gatech.omscs.team25.project1.ASLA <path>\essay.txt -d "?" -l "2"</td>
     </tr>
     
  <tr>
-    <td><b>8</b></td>
+    <td>8</td>
     <td>3.1.5, 3.1.6</td>
-    <td>Verify that a sentence with words less than the delimiter are not counted in average sentence length. 
+    <td><p>Verify that a sentence with words less than the delimiter are not counted in average sentence length. </p>
 This test also verifies the average sentence length being rounded down to the nearest integer.</td>
     <td>9.) Enter the following command:
 java edu.gatech.omscs.team25.project1.ASLA <path>\essay2.txt -d "." -l "4"</td>
@@ -163,7 +163,7 @@ java edu.gatech.omscs.team25.project1.ASLA <path>\essay2.txt -d "." -l "4"</td>
     </tr>
 
 <tr>
-    <td><b>9 </b></td>
+    <td>9 </td>
     <td>2.2.2.3</td>
     <td>Verify response when length parameter missing (Default -l = 3)</td>
     <td>10.) Enter the following command:
@@ -175,7 +175,7 @@ java edu.gatech.omscs.team25.project1.ASLA <path>\essay.txt -d "."</td>
     </tr>
     
 <tr>
-    <td><b>10 </b></td>
+    <td>10 </td>
     <td>3.1.7.1</td>
     <td>Verify response when no  parameters are specified
 (No file, no delimiter, no length)</td>
@@ -190,7 +190,7 @@ Expected Output (EO) = Usage: ASLA <filename> [-d <sentence delimiter characters
     </tr>
     
 <tr>
-    <td><b>11 </b></td>
+    <td>11 </td>
     <td>3.1.7.2</td>
     <td>Verify response when no filename specified</td>
     <td>12.) Enter the following command:
@@ -204,7 +204,7 @@ Expected Output (EO) = The specified file could not be found.</td>
     </tr>
     
 <tr>
-    <td><b>12 </b></td>
+    <td>12 </td>
     <td>3.1.2.1</td>
     <td>Verify response when file is invalid or missing</td>
     <td><p>13.) Ensure that a file named ‘widget.txt’ is not in the specificed path </p>
@@ -219,7 +219,7 @@ Expected Output (EO) = The specified file could not be found.</td>
     </tr>
     
 <tr>
-    <td><b> 13</b></td>
+    <td>13</td>
     <td>3.1.2.2</td>
     <td>Verify response when file type is binary</td>
     <td><p>15.) Locate the ASLA.class file. Record the <path> where the file resides.</p>
@@ -238,7 +238,7 @@ NOTE: Number of words is irrelevant. Test is to determine </td>
     </tr>
     
 <tr>
-    <td><b>14 </b></td>
+    <td>14 </td>
     <td>3.1.2.3</td>
     <td>Verify the response when a file size larger than 5 mb is used</td>
     <td><p>17.) Locate a <file> on the execution system larger than 5 mb. Record the <path> where the file resides.</p>
@@ -254,7 +254,7 @@ Expected Output (EO) = The specified file exceeds the limit of 5 MB.</td>
     </tr>
     
 <tr>
-    <td><b>15 </b></td>
+    <td>15 </td>
     <td>3.2.1</td>
     <td>Verify application execution performance</td>
     <td><p>19.) Start a timer (watch or scripted command)</p>
