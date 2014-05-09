@@ -1,0 +1,35 @@
+Name: Sheree Gadow
+GT ID: 901234513
+Email: sg@gatech.edu
+Attendance: 86%
+
+Projects done by Sheree Gadow:
+
+Project Number: P1
+Team 1 Grade: 93
+Average Grade: 93.0
+Average Contribution: 7.0
+
+Project Number: P2
+Team 1 Grade: 95
+Average Grade: 92.0
+Average Contribution: 8.67
+
+Project Number: P3
+Team 3 Grade: 102
+Average Grade: 99.0
+Average Contribution: 9.0
+
+Assignments done by Sheree Gadow:
+
+Assignment Number: Assignment 1
+Student Grade: 100
+Average Class Grade: 99.0
+
+Assignment Number: Assignment 2
+Student Grade: 110
+Average Class Grade: 100.0
+
+Assignment Number: Assignment 3
+Student Grade: 90
+Average Class Grade: 76.0

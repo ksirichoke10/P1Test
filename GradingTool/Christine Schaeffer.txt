@@ -1,0 +1,19 @@
+Name: Christine Schaeffer
+GT ID: 901234508
+Email: cs@gatech.edu
+Attendance: 86.0%
+Projects: 
+P1
+Overall avg grade: 93.0
+Team 2, Team Grade: 96, Contribution: 9.75
+P2
+Overall avg grade: 92.0
+Team 2, Team Grade: 96, Contribution: 8.0
+P3
+Overall avg grade: 99.0
+Team 2, Team Grade: 96, Contribution: 9.25
+
+Assignments: 
+Assignment 1:Description: swiki page Average grade: 99.0 Student grade: 90
+Assignment 2:Description: software prototyping Average grade: 100.0 Student grade: 90
+Assignment 3:Description: junit and coverage Average grade: 76.0 Student grade: 100
